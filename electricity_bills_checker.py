@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC 
 
 
-# to load the excel workbook with its path
+# to load the excel workbook with its path (change the path of the billings excel)
 file_path = r'C:/Users/Downloads/billings.xlsx'
 excel_workbook = openpyxl.load_workbook(file_path)
 # to identify active worksheet
@@ -100,4 +100,5 @@ for m in range ( 2, excel_worksheet.max_row + 1):
     epistrofh_button.click()
 
 # Close the browser
+
 driver.quit()
