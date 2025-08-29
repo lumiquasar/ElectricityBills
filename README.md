@@ -27,4 +27,4 @@ Convert Python Script to .exe File
 
 *⁉️Note 3:*
 
-Permission to write in excel: denied ➡️ In case of the above error, close the excel file and try to run the python script again!*
+In case of the following error "Permission to write in excel: denied", close the excel file and try to run the python script again!
